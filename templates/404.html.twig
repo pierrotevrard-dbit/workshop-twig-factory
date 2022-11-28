@@ -1,0 +1,27 @@
+{% extends 'layout.html.twig' %}
+
+{% block navigation %}
+    <ul id="navigation">
+        <li><a href="?page=index">Home</a></li>
+        <li><a href="?page=page1">What is Lorem Ipsum?</a></li>
+        <li><a href="?page=page2">Why do we use it?</a></li>
+        <li><a href="?page=page3">Where does it come from?</a></li>
+        <li><a href="?page=page4">Where can I get some?</a></li>
+    </ul>
+{% endblock %}
+
+{% block page_title %}
+    <title>404 Not Found</title>
+{% endblock %}
+
+{% block title %}
+    <h1>404 Not Found</h1>
+{% endblock %}
+
+{% block content %}
+    <p>The requested page <i>{{ page }}</i> does not exists!</p>
+{% endblock %}
+
+{% block copyright %}
+    <p><i>&copy; 2022</i></p>
+{% endblock %}

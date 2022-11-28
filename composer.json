@@ -1,0 +1,36 @@
+{
+  "name"        : "dbit/twig-factory",
+  "type"        : "project",
+  "description" : "A PHP-vanilla project using TWIG",
+  "keywords"    : [
+    "project",
+    "php",
+    "twig",
+    "dbit"
+  ],
+  "license"     : "proprietary",
+  "authors"     : [
+    {
+      "name" : "Pierrot EVRARD",
+      "email": "p.evrard@larcier-intersentia.lu",
+      "role" : "Developer"
+    }
+  ],
+  "support"     : {
+    "email": "p.evrard@larcier-intersentia.lu"
+  },
+  "repositories": {
+  },
+  "config"      : {
+    "platform": {
+      "php": "7.4"
+    },
+    "secure-http": false,
+    "bin-dir"   : "bin",
+    "sort-packages": true
+  },
+  "require"     : {
+    "php": "~7.4",
+    "twig/twig": "^3.4"
+  }
+}
